@@ -166,6 +166,13 @@ if (EXISTS "${POB_LUA_TREE}/src/Launch.lua")
         PATTERN "Update" EXCLUDE
     )
 
+# Shared passive-tree asset referenced by newer tree versions.
+
+    install(FILES
+        "${POB_LUA_TREE}/src/TreeData/3_24/PassiveMasteryConnectedButton.png"
+        DESTINATION "${POB_RES_DEST}/src/TreeData"
+    )
+
     install(DIRECTORY "${POB_LUA_TREE}/runtime/lua"
         DESTINATION "${POB_RES_DEST}"
     )
