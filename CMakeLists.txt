@@ -165,9 +165,15 @@ if (EXISTS "${POB_LUA_TREE}/src/Launch.lua")
         PATTERN ".git*" EXCLUDE
         PATTERN "Update" EXCLUDE
     )
+
     install(DIRECTORY "${POB_LUA_TREE}/runtime/lua"
         DESTINATION "${POB_RES_DEST}"
     )
+
+    install(FILES "${CMAKE_CURRENT_SOURCE_DIR}/macos/lua/sha2.lua"
+        DESTINATION "${POB_RES_DEST}/lua"
+    )
+
     install(DIRECTORY "${POB_LUA_TREE}/runtime/SimpleGraphic"
         DESTINATION "${POB_RES_DEST}"
         PATTERN "*.cfg" EXCLUDE
