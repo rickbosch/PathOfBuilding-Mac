@@ -1,12 +1,10 @@
-# Path of Building Community for macOS
+# Path of Building for macOS
 
-![Path of Building Community for macOS](assets/hero.png)
+![Hero](assets/hero.png)
 
-A native macOS packaging project for the excellent Path of Building Community application.
+Native Apple Silicon builds of Path of Building Community.
 
-This project provides pre-built macOS releases for Apple Silicon Macs, allowing Path of Building Community to run as a standard macOS application without requiring Wine, CrossOver or other compatibility layers.
-
----
+An independent macOS packaging project providing a native application for Apple Silicon Macs without requiring Wine, CrossOver or additional compatibility layers.
 
 ## Features
 
@@ -21,23 +19,14 @@ This project provides pre-built macOS releases for Apple Silicon Macs, allowing 
 
 ## Download
 
-Download the latest release from the **Releases** section of this repository.
+Download the latest release from the Releases page.
 
-After downloading:
+1. Download the latest DMG.
+2. Open the DMG.
+3. Drag Path of Building into Applications.
+4. Launch.
 
-1. Open the DMG.
-2. Drag **Path of Building Community** into your Applications folder.
-3. Launch the application.
-
-On first launch, macOS may display a security warning.
-
-If this happens:
-
-- Right-click the application.
-- Select **Open**.
-- Confirm that you want to launch it.
-
-This only needs to be done once.
+On first launch macOS may ask you to confirm that you trust the application. Right-click the application, choose **Open**, then confirm. This only needs to be done once.
 
 ---
 
@@ -57,15 +46,15 @@ No gameplay features have been modified.
 
 ### Passive Tree
 
-![Main Application](assets/screenshot_passive_tree.png)
+![Passive Tree](assets/screenshot_tree.png)
 
 ### Items
 
-![Main Application](assets/screenshot_items.png)
+![Items](assets/screenshot_items.png)
 
 ### Calculations
 
-![Main Application](assets/screenshot_calcs.png)
+![Calculations](assets/screenshot_calcs.png)
 
 ---
 
@@ -92,11 +81,11 @@ Please report issues using the GitHub Issues page.
 
 ## Credits
 
-All credit for Path of Building itself belongs to the incredible Path of Building Community team.
+All gameplay calculations, mechanics and functionality are developed and maintained by the outstanding Path of Building Community team.
 
-This repository does **not** modify the application's gameplay calculations or functionality.
+This repository simply packages their application as a native macOS application for Apple Silicon Macs.
 
-Its purpose is to package and distribute the Community project as a native macOS application for the benefit of Mac users.
+Special thanks to ChatGPT for helping turn a weekend idea into a working project.
 
 Please support the original project:
 
