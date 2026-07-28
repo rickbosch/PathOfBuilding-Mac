@@ -8,7 +8,7 @@ DIST_DIR="${ROOT_DIR}/dist"
 DMG_STAGE_DIR="${BUILD_DIR}/dmg-stage"
 
 APP_NAME="Path of Building.app"
-RELEASE_VERSION="${RELEASE_VERSION:-2.66.2}"
+RELEASE_VERSION="${RELEASE_VERSION:-$(git describe --tags --abbrev=0 | sed 's/^v//')}"
 DMG_NAME="PathOfBuilding-Community-macOS-Apple-Silicon-v${RELEASE_VERSION}.dmg"
 
 APP_PATH="${DIST_DIR}/${APP_NAME}"
