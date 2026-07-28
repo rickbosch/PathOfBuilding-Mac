@@ -1,4 +1,4 @@
-# Path of Building for macOS
+# Path of Building Community for macOS
 
 ![Hero](assets/hero.png)
 
