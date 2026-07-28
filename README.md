@@ -1,41 +1,112 @@
-# PathOfBuilding-Mac
+# Path of Building Community for macOS
 
-Unofficial macOS port of Path of Building, an offline build planner for Path of Exile.
+![Path of Building Community for macOS](assets/hero.png)
+
+A native macOS packaging project for the excellent Path of Building Community application.
+
+This project provides pre-built macOS releases for both Apple Silicon and Intel Macs, allowing Path of Building Community to run as a standard macOS application without requiring Wine, CrossOver or other compatibility layers.
+
+---
 
 ## Features
 
-* Faithful port of Path of Building to macOS, with a focus on performance and user experience
-* Supports both PoE 1 and PoE 2
-* Native Apple Silicon (M1, M2 etc.) support
-* Uses same engine as Windows (SimpleGraphic), with Metal backend via ANGLE
-* Supports in-app updates (will update to latest version of the official PoB Lua core, i.e. passive tree etc.). No auto update of the app itself however.
+- Native macOS application (.app)
+- Apple Silicon (M1, M2, M3 and newer) support
+- Intel Mac support
+- Simple drag-and-drop installation
+- Built from the latest Path of Building Community source
+- Open source
+- Regularly updated alongside Community releases
 
-## System requirements
-
-* macOS 11 (Big Sur) or later
-* Apple Silicon (M1+), Intel-based Macs are not supported
+---
 
 ## Download
 
-You can download the latest version from the [releases page](https://github.com/stevschmid/PathOfBuilding-Mac/releases).
+Download the latest release from the **Releases** section of this repository.
 
-* `PathOfBuilding-Mac.dmg` is the standalone app for Path of Building (Path of Exile 1).
-* `PathOfBuilding-Mac-PoE2.dmg` is the standalone app for Path of Building (Path of Exile 2).
+After downloading:
 
-Download, open the DMG, drag the app to your Applications folder, and launch it from there.
+1. Open the DMG.
+2. Drag **Path of Building Community** into your Applications folder.
+3. Launch the application.
+
+On first launch, macOS may display a security warning.
+
+If this happens:
+
+- Right-click the application.
+- Select **Open**.
+- Confirm that you want to launch it.
+
+This only needs to be done once.
+
+---
+
+## Why this project?
+
+Path of Building is an essential tool for Path of Exile players, but running it on macOS has traditionally required additional compatibility software.
+
+The goal of this project is simple:
+
+Provide a native-feeling macOS application that installs and behaves like any other Mac application while remaining fully compatible with the Community Fork.
+
+No gameplay features have been modified.
+
+---
+
+## Screenshots
+
+### Passive Tree
+
+![Main Application](assets/screenshot_passive_tree.png)
+
+### Items
+
+![Main Application](assets/screenshot_items.png)
+### Calculations
+
+![Main Application](assets/screenshot_calcs.png)
+
+---
+
+## Keeping up to date
+
+Each release is built from the latest available Path of Building Community source.
+
+When a new Community version is released, a matching macOS release will be published here as soon as possible.
+
+---
+
+## Reporting Issues
+
+If you encounter a problem, please include:
+
+- macOS version
+- Apple Silicon or Intel Mac
+- Path of Building version
+- Steps to reproduce the issue
+- Crash logs (if available)
+
+Please report issues using the GitHub Issues page.
+
+---
 
 ## Credits
 
-* [PathOfBuildingCommunity](https://github.com/PathOfBuildingCommunity) for the outstanding work on the upstream project
-* [PR #98](https://github.com/PathOfBuildingCommunity/PathOfBuilding-SimpleGraphic/pull/98) by @velomeister for the Linux port that helped kickstart this project
+All credit for Path of Building itself belongs to the incredible Path of Building Community team.
 
-## How to file issues
+This repository does **not** modify the application's gameplay calculations or functionality.
 
-Please use this [repository](https://github.com/stevschmid/PathOfBuilding-Mac/issues) to report any bugs or suggest features (**do not use the official PoB repo**).
-Please include what PathOfBuilding-Mac version you are using, plus your macOS version and which port you use (PoE 1 or PoE 2).
+Its purpose is to package and distribute the Community project as a native macOS application for the benefit of Mac users.
 
-## License
+Please support the original project:
 
-[MIT](https://github.com/stevschmid/PathOfBuilding-Mac/blob/master/LICENSE)
+https://github.com/PathOfBuildingCommunity/PathOfBuilding
 
-For 3rd-party licenses of Path of Building, see [License.md](https://github.com/PathOfBuildingCommunity/PathOfBuilding/blob/dev/LICENSE.md).
+---
+
+## Licence
+
+This repository follows the same licensing as the upstream Path of Building Community project where applicable.
+
+See the LICENSE file for details.
