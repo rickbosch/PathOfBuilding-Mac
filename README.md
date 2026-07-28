@@ -4,7 +4,7 @@
 
 A native macOS packaging project for the excellent Path of Building Community application.
 
-This project provides pre-built macOS releases for both Apple Silicon and Intel Macs, allowing Path of Building Community to run as a standard macOS application without requiring Wine, CrossOver or other compatibility layers.
+This project provides pre-built macOS releases for Apple Silicon Macs, allowing Path of Building Community to run as a standard macOS application without requiring Wine, CrossOver or other compatibility layers.
 
 ---
 
@@ -12,7 +12,6 @@ This project provides pre-built macOS releases for both Apple Silicon and Intel 
 
 - Native macOS application (.app)
 - Apple Silicon (M1, M2, M3 and newer) support
-- Intel Mac support
 - Simple drag-and-drop installation
 - Built from the latest Path of Building Community source
 - Open source
@@ -63,6 +62,7 @@ No gameplay features have been modified.
 ### Items
 
 ![Main Application](assets/screenshot_items.png)
+
 ### Calculations
 
 ![Main Application](assets/screenshot_calcs.png)
@@ -82,7 +82,6 @@ When a new Community version is released, a matching macOS release will be publi
 If you encounter a problem, please include:
 
 - macOS version
-- Apple Silicon or Intel Mac
 - Path of Building version
 - Steps to reproduce the issue
 - Crash logs (if available)
