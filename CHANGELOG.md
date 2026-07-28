@@ -1,13 +1,24 @@
 # Changelog
 
-## mac-v0.1.2 (2026-05-17)
+## v2.66.2-macos.1 (2026-07-28)
 
-- Fix failure to boot on some machines due to missing dependency (OpenSSL)
+### Added
+- Initial public release.
+- Native Apple Silicon application bundle.
+- DMG installer for simple drag-and-drop installation.
+- GitHub Releases for versioned downloads.
+- Comprehensive project documentation.
+- Installation guide and troubleshooting notes.
 
-## mac-v0.1.1 (2026-05-06)
+### Changed
+- Updated to Path of Building Community v2.66.2.
+- Improved application packaging for macOS.
+- Improved first-launch experience and code signing workflow.
+- Updated project branding, README and repository assets.
 
-- Fix an issue where startup errors would not show in the in-app popup
-
-## mac-v0.1.0 (2026-04-18)
-
-- Initial release
+### Fixed
+- Resolved application startup issues on Apple Silicon.
+- Fixed Lua runtime and dependency packaging.
+- Fixed resource and asset loading within the application bundle.
+- Corrected application icon and bundle metadata.
+- Addressed various macOS packaging and distribution issues.
