@@ -46,7 +46,7 @@ No gameplay features have been modified.
 
 ### Passive Tree
 
-![Passive Tree](assets/screenshot_tree.png)
+![Passive Tree](assets/screenshot_passive_tree.png)
 
 ### Items
 
